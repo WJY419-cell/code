@@ -1,0 +1,133 @@
+{
+  "model": "shared score + layer deviations + graph-Laplacian cross-layer coupling",
+  "solver": "L-BFGS-B on centered layer scores; residual checked",
+  "lambda_s_candidates": [
+    0,
+    0.01,
+    0.05,
+    0.2,
+    0.8
+  ],
+  "excluded_modules": [
+    "source reliability",
+    "malicious-source model",
+    "label-flip likelihood",
+    "cross-fitted calibration",
+    "calibration freezing",
+    "nuclear norm"
+  ],
+  "datasets": [
+    {
+      "name": "Breakfast-6Context",
+      "items": 15,
+      "layers": 6,
+      "records": 246,
+      "layer_names": [
+        "Overall preference",
+        "Juice, bacon and eggs, beverage",
+        "Juice, cold cereal, beverage",
+        "Juice, pancakes, sausage, beverage",
+        "Breakfast, with beverage only",
+        "At snack time, with beverage only"
+      ]
+    },
+    {
+      "name": "SUSHI-RegionPaths",
+      "items": 10,
+      "layers": 10,
+      "records": 4981,
+      "layer_names": [
+        "region-0",
+        "region-1",
+        "region-2",
+        "region-3",
+        "region-4",
+        "region-5",
+        "region-6",
+        "region-7",
+        "region-8",
+        "region-9"
+      ]
+    },
+    {
+      "name": "MovieLens-OccupationPaths",
+      "items": 35,
+      "layers": 21,
+      "records": 804,
+      "layer_names": [
+        "administrator",
+        "artist",
+        "doctor",
+        "educator",
+        "engineer",
+        "entertainment",
+        "executive",
+        "healthcare",
+        "homemaker",
+        "lawyer",
+        "librarian",
+        "marketing",
+        "none",
+        "other",
+        "programmer",
+        "retired",
+        "salesman",
+        "scientist",
+        "student",
+        "technician",
+        "writer"
+      ]
+    }
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "steps": 750,
+  "support_caps": {
+    "Breakfast-6Context": [
+      3,
+      5,
+      8,
+      12
+    ],
+    "SUSHI-RegionPaths": [
+      5,
+      10,
+      20,
+      40,
+      60
+    ],
+    "MovieLens-OccupationPaths": [
+      3,
+      5,
+      10,
+      15,
+      25
+    ]
+  },
+  "support_sweep_methods": [
+    "Pooled-BT",
+    "Layerwise-BT",
+    "MPC-Rank"
+  ],
+  "long_tail_target_supports": [
+    0,
+    1,
+    3,
+    5
+  ],
+  "long_tail_target_fraction": 0.25,
+  "elapsed_seconds": 54.24014139175415,
+  "raw_data_redistribution": "prohibited for MovieLens and SUSHI; retain official download links only"
+}

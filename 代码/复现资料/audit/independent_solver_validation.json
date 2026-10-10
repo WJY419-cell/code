@@ -1,0 +1,7 @@
+{
+  "finite_difference_max_error": 1.5165002587025356e-10,
+  "independent_SLSQP_objective_gap": 9.237055564881302e-14,
+  "constraint_max_residual": 1.3877787807814457e-16,
+  "reference_success": true,
+  "fit_max_gradient": 1.002236990708255e-09
+}

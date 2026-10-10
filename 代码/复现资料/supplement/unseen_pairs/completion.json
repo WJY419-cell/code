@@ -1,0 +1,11 @@
+{
+  "seconds": 39.16965961456299,
+  "rows": 1296,
+  "scenarios": 216,
+  "protected_files_unchanged": true,
+  "hashes_after": {
+    "output\\submission\\Computer_Society_LaTeX_template\\MPC_Rank_IEEE\\main.tex": "723bf17aba667a5244813e13a6dda1139e314442f299936d7f0cf82e0f885e74",
+    "output\\submission\\Computer_Society_LaTeX_template\\MPC_Rank_IEEE\\main.pdf": "c24d7e6d3b48796c1dfeb3f4368c0e50b3e751220c61472564779c0318443a3e",
+    "output\\submission\\Computer_Society_LaTeX_template\\MPC_Rank_IEEE\\code\\metapath_coupling_experiment.py": "83414f68c0424a26b713a80b8a249e69c2d2178a4a28a89dc2f59846c03f378a"
+  }
+}

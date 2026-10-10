@@ -1,0 +1,10 @@
+{
+  "real_summary.csv": "PASS",
+  "paired_significance.csv": "PASS",
+  "support_sweep_summary.csv": "PASS",
+  "support_sweep_significance.csv": "PASS",
+  "long_tail_summary.csv": "PASS",
+  "long_tail_significance.csv": "PASS",
+  "synthetic_summary.csv": "PASS",
+  "synthetic_significance.csv": "PASS"
+}

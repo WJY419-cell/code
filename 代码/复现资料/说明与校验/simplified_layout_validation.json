@@ -1,0 +1,17 @@
+{
+  "top_level_entries": [
+    "代码",
+    "README.md",
+    "requirements.txt"
+  ],
+  "visible_entry_scripts": [
+    "代码/metapath_coupling_experiment.py",
+    "代码/synthetic_boundary_experiment.py"
+  ],
+  "original_core_solver_unchanged": true,
+  "four_verification_checks": "PASS",
+  "two_seed_17_scenario_synthetic_entrypoint_comparison": "PASS",
+  "comparison_ignores_wall_clock_durations": true,
+  "raw_datasets_included": false,
+  "temporary_outputs_included": false
+}

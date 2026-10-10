@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this release and the associated manuscript when its final citation is available."
+type: software
+title: "MPC-Rank: Structured Cross-Layer Aggregation for Sparse Multi-Relational Ranking"
+version: 1.0.0
+date-released: 2026-10-10
+authors:
+  - family-names: Wang
+    given-names: Jiayi
+  - family-names: Lu
+    given-names: Shuo
+  - family-names: Xiao
+    given-names: Yu
+abstract: "Constrained Bradley-Terry estimation with shared scores, centered layer offsets and fixed layer-graph smoothing, with recorded experiments and numerical verification."
+keywords:
+  - rank aggregation
+  - pairwise comparisons
+  - multi-task learning
+  - graph regularization

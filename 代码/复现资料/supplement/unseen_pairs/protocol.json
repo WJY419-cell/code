@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-05",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "primary_mask_fraction": 0.2,
+  "sensitivity_mask_fractions": [
+    0.1,
+    0.3
+  ],
+  "modes": [
+    "within_layer",
+    "global"
+  ],
+  "lambda_s_candidates": [
+    0,
+    0.01,
+    0.05,
+    0.2,
+    0.8
+  ],
+  "ridge_u": 0.03,
+  "ridge_b": 0.005,
+  "outer_split": "original user/ranking split, original per-layer caps",
+  "outer_masks": "nested random subsets of all fixed-catalog unordered pairs; independent of directions and performance",
+  "inner_validation": "separate user records and additional same-mode pair mask among outer-unmasked pairs; same masking fraction",
+  "final_fit": "all outer training records after outer mask only",
+  "MovieLens_graph": "training-record item co-occurrence only, including ties without reading their direction; masked pairs removed; inner graph rebuilt from inner training records",
+  "catalog": "original fixed catalog and layers; no new-item or purely inductive-catalog claim",
+  "selection": "mean NLL; ties choose first candidate, including zero",
+  "metric": "comparison-count-weighted NLL primary, accuracy secondary",
+  "methods": [
+    "Pooled-BT",
+    "Layerwise-BT",
+    "Uncoupled-Joint",
+    "MPC-Rank",
+    "RankCentrality",
+    "Borda"
+  ],
+  "inference": "paired split summaries; overlapping resplits not independent populations; Holm correction across all 90 NLL comparisons",
+  "protected_hashes_before": {
+    "output\\submission\\Computer_Society_LaTeX_template\\MPC_Rank_IEEE\\main.tex": "723bf17aba667a5244813e13a6dda1139e314442f299936d7f0cf82e0f885e74",
+    "output\\submission\\Computer_Society_LaTeX_template\\MPC_Rank_IEEE\\main.pdf": "c24d7e6d3b48796c1dfeb3f4368c0e50b3e751220c61472564779c0318443a3e",
+    "output\\submission\\Computer_Society_LaTeX_template\\MPC_Rank_IEEE\\code\\metapath_coupling_experiment.py": "83414f68c0424a26b713a80b8a249e69c2d2178a4a28a89dc2f59846c03f378a"
+  }
+}

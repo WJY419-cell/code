@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "all_release_python_files_compile": true,
+  "core_solver_byte_identical_to_recorded_study": true,
+  "synthetic_seed0_all_17_scenarios_match_archive": true,
+  "masked_pair_standalone_without_manuscript": true,
+  "masked_pair_seed0_primary_within_layer_all_three_datasets_match_archive": true,
+  "archived_results_unchanged_during_portability_runs": true,
+  "local_platform": "Windows",
+  "GitHub_Actions_executed": false
+}

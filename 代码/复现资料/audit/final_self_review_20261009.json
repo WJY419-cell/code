@@ -1,0 +1,385 @@
+{
+  "quantitative_table_checks": [
+    {
+      "item": "table1/Breakfast-6Context/3",
+      "passed": true
+    },
+    {
+      "item": "table1/Breakfast-6Context/12",
+      "passed": true
+    },
+    {
+      "item": "table1/SUSHI-RegionPaths/5",
+      "passed": true
+    },
+    {
+      "item": "table1/SUSHI-RegionPaths/60",
+      "passed": true
+    },
+    {
+      "item": "table1/MovieLens-OccupationPaths/3",
+      "passed": true
+    },
+    {
+      "item": "table1/MovieLens-OccupationPaths/25",
+      "passed": true
+    },
+    {
+      "item": "table2/Breakfast-6Context/0",
+      "passed": true
+    },
+    {
+      "item": "table2/Breakfast-6Context/5",
+      "passed": true
+    },
+    {
+      "item": "table2/SUSHI-RegionPaths/0",
+      "passed": true
+    },
+    {
+      "item": "table2/SUSHI-RegionPaths/5",
+      "passed": true
+    },
+    {
+      "item": "table2/MovieLens-OccupationPaths/0",
+      "passed": true
+    },
+    {
+      "item": "table2/MovieLens-OccupationPaths/5",
+      "passed": true
+    },
+    {
+      "item": "table3/Breakfast-6Context/Borda",
+      "passed": true
+    },
+    {
+      "item": "table3/Breakfast-6Context/RankCentrality",
+      "passed": true
+    },
+    {
+      "item": "table3/Breakfast-6Context/Pooled-BT",
+      "passed": true
+    },
+    {
+      "item": "table3/Breakfast-6Context/MPC-Rank",
+      "passed": true
+    },
+    {
+      "item": "table3/SUSHI-RegionPaths/Borda",
+      "passed": true
+    },
+    {
+      "item": "table3/SUSHI-RegionPaths/RankCentrality",
+      "passed": true
+    },
+    {
+      "item": "table3/SUSHI-RegionPaths/Pooled-BT",
+      "passed": true
+    },
+    {
+      "item": "table3/SUSHI-RegionPaths/MPC-Rank",
+      "passed": true
+    },
+    {
+      "item": "table3/MovieLens-OccupationPaths/Borda",
+      "passed": true
+    },
+    {
+      "item": "table3/MovieLens-OccupationPaths/RankCentrality",
+      "passed": true
+    },
+    {
+      "item": "table3/MovieLens-OccupationPaths/Pooled-BT",
+      "passed": true
+    },
+    {
+      "item": "table3/MovieLens-OccupationPaths/MPC-Rank",
+      "passed": true
+    },
+    {
+      "item": "table4/Breakfast-6Context",
+      "passed": true
+    },
+    {
+      "item": "table4/SUSHI-RegionPaths",
+      "passed": true
+    },
+    {
+      "item": "table4/MovieLens-OccupationPaths",
+      "passed": true
+    },
+    {
+      "item": "table5/0",
+      "passed": true
+    },
+    {
+      "item": "table5/30",
+      "passed": true
+    },
+    {
+      "item": "table5/100",
+      "passed": true
+    },
+    {
+      "item": "table5/300",
+      "passed": true
+    },
+    {
+      "item": "table6/Breakfast-6Context/within_layer",
+      "passed": true
+    },
+    {
+      "item": "table6/SUSHI-RegionPaths/within_layer",
+      "passed": true
+    },
+    {
+      "item": "table6/MovieLens-OccupationPaths/within_layer",
+      "passed": true
+    },
+    {
+      "item": "table6/Breakfast-6Context/global",
+      "passed": true
+    },
+    {
+      "item": "table6/SUSHI-RegionPaths/global",
+      "passed": true
+    },
+    {
+      "item": "table6/MovieLens-OccupationPaths/global",
+      "passed": true
+    }
+  ],
+  "table_errors": [],
+  "unseen_summary_and_test_count_checks": {
+    "groups": 108,
+    "rows": 1296,
+    "scenarios": 216,
+    "passed": true
+  },
+  "data_dimensions": [
+    {
+      "dataset": "Breakfast-6Context",
+      "n": 15,
+      "K": 6,
+      "records": 246
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "n": 10,
+      "K": 10,
+      "records": 4981
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "n": 35,
+      "K": 21,
+      "records": 804
+    }
+  ],
+  "main_protocol_union_connectivity": [
+    {
+      "dataset": "Breakfast-6Context",
+      "seed": 0,
+      "union_components": 1
+    },
+    {
+      "dataset": "Breakfast-6Context",
+      "seed": 1,
+      "union_components": 1
+    },
+    {
+      "dataset": "Breakfast-6Context",
+      "seed": 2,
+      "union_components": 1
+    },
+    {
+      "dataset": "Breakfast-6Context",
+      "seed": 3,
+      "union_components": 1
+    },
+    {
+      "dataset": "Breakfast-6Context",
+      "seed": 4,
+      "union_components": 1
+    },
+    {
+      "dataset": "Breakfast-6Context",
+      "seed": 5,
+      "union_components": 1
+    },
+    {
+      "dataset": "Breakfast-6Context",
+      "seed": 6,
+      "union_components": 1
+    },
+    {
+      "dataset": "Breakfast-6Context",
+      "seed": 7,
+      "union_components": 1
+    },
+    {
+      "dataset": "Breakfast-6Context",
+      "seed": 8,
+      "union_components": 1
+    },
+    {
+      "dataset": "Breakfast-6Context",
+      "seed": 9,
+      "union_components": 1
+    },
+    {
+      "dataset": "Breakfast-6Context",
+      "seed": 10,
+      "union_components": 1
+    },
+    {
+      "dataset": "Breakfast-6Context",
+      "seed": 11,
+      "union_components": 1
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "seed": 0,
+      "union_components": 1
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "seed": 1,
+      "union_components": 1
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "seed": 2,
+      "union_components": 1
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "seed": 3,
+      "union_components": 1
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "seed": 4,
+      "union_components": 1
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "seed": 5,
+      "union_components": 1
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "seed": 6,
+      "union_components": 1
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "seed": 7,
+      "union_components": 1
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "seed": 8,
+      "union_components": 1
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "seed": 9,
+      "union_components": 1
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "seed": 10,
+      "union_components": 1
+    },
+    {
+      "dataset": "SUSHI-RegionPaths",
+      "seed": 11,
+      "union_components": 1
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "seed": 0,
+      "union_components": 1
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "seed": 1,
+      "union_components": 1
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "seed": 2,
+      "union_components": 1
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "seed": 3,
+      "union_components": 1
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "seed": 4,
+      "union_components": 1
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "seed": 5,
+      "union_components": 1
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "seed": 6,
+      "union_components": 1
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "seed": 7,
+      "union_components": 1
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "seed": 8,
+      "union_components": 1
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "seed": 9,
+      "union_components": 1
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "seed": 10,
+      "union_components": 1
+    },
+    {
+      "dataset": "MovieLens-OccupationPaths",
+      "seed": 11,
+      "union_components": 1
+    }
+  ],
+  "original_MovieLens_graph_tie_dependence": {
+    "uses_non_tied_pairs": true,
+    "max_difference_from_rating_free_cooccurrence": 0.25716225384787317,
+    "includes_pre_split_test_records": true
+  },
+  "optimizer_records": [
+    {
+      "path": "audit/real_optimizer_checks.json",
+      "fits": 6226,
+      "max_gradient_inf": 2.4134721684717596e-08
+    },
+    {
+      "path": "audit/synthetic_optimizer_checks.json",
+      "fits": 8100,
+      "max_gradient_inf": 1.4136044414762435e-08
+    },
+    {
+      "path": "supplement/unseen_pairs/optimizer_checks.json",
+      "fits": 4392,
+      "max_gradient_inf": 2.4647769261708136e-08
+    }
+  ],
+  "all_table_numeric_cells_passed": true,
+  "abstract_introduction_words_changed": 5
+}

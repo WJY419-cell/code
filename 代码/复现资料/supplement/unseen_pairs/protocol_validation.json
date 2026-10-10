@@ -1,0 +1,7 @@
+{
+  "nested_masks": true,
+  "inner_outer_masks_disjoint": true,
+  "contamination_rejected": true,
+  "graph_invariant_to_rating_values_and_ties": true,
+  "original_solver_unchanged": true
+}
